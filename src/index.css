@@ -22,3 +22,9 @@
   width: 100%; /* Estende la linea fino alla larghezza dell'elemento */
   left: 0; /* Allinea la linea al bordo sinistro */
 }
+
+::selection {
+  background-color: theme('colors.selection-bg');
+  color: black;
+}
+

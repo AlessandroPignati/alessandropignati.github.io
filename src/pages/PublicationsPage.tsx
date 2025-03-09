@@ -107,7 +107,13 @@ const filteredPublications = publications
                   <div
                       key={index}
                       className={`border border-black backdrop-blur-sm p-6 transition-colors hover:border-gray-600 ${
-                          index === 0 ? 'rounded-t-lg' : index === filteredPublications.length - 1 ? 'rounded-b-lg' : ''
+                          filteredPublications.length === 1
+                              ? 'rounded-lg'
+                              : index === 0
+                                  ? 'rounded-t-lg' 
+                                  : index === filteredPublications.length - 1
+                                      ? 'rounded-b-lg' 
+                                      : ''
                       }`}
                   >
                     <h2 className="text-2xl font-semibold text-black mb-2">{pub.title}</h2>
@@ -122,19 +128,20 @@ const filteredPublications = publications
                             setIsCiteOpen(true);
                             setCitationText(`${pub.title}, ${pub.year}, DOI: ${pub.doi}`);
                           }}
-                          className="px-4 py-2 rounded-lg bg-black hover:bg-gray-800 text-white"
+                          className="px-4 py-2 rounded-md bg-black hover:bg-gray-800 text-white"
                       >
                         Cite
                       </button>
                       <a
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="px-4 py-2 rounded-lg bg-white text-black border-2 border-black hover:bg-black hover:text-white transition-colors duration-300"
+                          className="px-4 py-2 rounded-md bg-white text-black border-2 border-black hover:bg-black hover:text-white transition-colors duration-300"
                       >
                         PDF
                       </a>
                     </div>
                   </div>
+
               ))
           )}
         </div>
@@ -142,12 +149,12 @@ const filteredPublications = publications
 
         <Dialog open={isCiteOpen} onClose={() => setIsCiteOpen(false)}>
           <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
-            <div className="bg-white p-6 rounded-lg shadow-lg max-w-md w-full">
+            <div className="bg-white p-6 rounded-md shadow-lg max-w-md w-full">
               <h3 className="text-lg font-semibold mb-4">Citation</h3>
               <p className="text-black">{citationText}</p>
               <button
                   onClick={() => setIsCiteOpen(false)}
-                  className="mt-4 px-4 py-2 bg-black hover:bg-gray-800 text-white rounded-lg"
+                  className="mt-4 px-4 py-2 bg-black hover:bg-gray-800 text-white rounded-md"
               >
                 Close
               </button>

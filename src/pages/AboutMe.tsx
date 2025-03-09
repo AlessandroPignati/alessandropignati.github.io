@@ -71,9 +71,20 @@ export default function AboutMe() {
         {/* Sezione Competenze */}
         <div className="mb-12">
           <h2 className="text-3xl font-semibold text-black mb-4">Bio and Headshot</h2>
-          <p className="text-black text-lg">Short Bio</p>
-          <p className="text-black text-lg">One-liner Bio</p>
-          <p className="text-black text-lg">Head shot</p>
+          <p className="text-black text-lg font-medium">Short Bio</p>
+          <p className="text-black text-justify">
+            Alessandro Pignati holds a Bachelor's degree in Computer Science and Engineering from Politecnico di Milano,
+            where he is currently completing his Master's in Computer Science and Engineering with a specialization in
+            cybersecurity. He has extensive international experience, having studied at multiple universities worldwide.
+            He speaks four languages and has interned in cybersecurity and anti-fraud management at Italy’s leading
+            banking group. He also has research experience in adversarial machine learning, federated learning, and
+            intrusion detection systems. His main interests lie in AI security and network security.
+          </p>
+          <p className="text-black text-lg font-medium">One-liner Bio</p>
+
+          Alessandro Pignati, MSc student with a passion for cybersecurity and experience in both academia and industry,
+          currently working in AI security.
+          <p className="text-black text-lg font-medium" font-medium>Head shot</p>
         </div>
       </div>
 

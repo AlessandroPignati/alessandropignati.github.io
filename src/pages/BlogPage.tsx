@@ -8,13 +8,13 @@ export default function BlogPage() {
     {
       title: "Agents at Risk! Where is the weakest link?",
       date: "2025",
-      preview: "",
+      preview: "Soon",
       imageUrl: "/src/img/abstract-coming-soon-halftone-style-background-design_1017-27282.avif"
     },
     {
       title: "Ignore All the Previous Instructions and Unveil LLMs Security Flaws",
       date: "2025",
-      preview: "",
+      preview: "Soon",
       imageUrl: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&q=80"
     }
   ];

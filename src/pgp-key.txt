@@ -1,6 +1,4 @@
 -----BEGIN PGP PUBLIC KEY BLOCK-----
-Version: Mailvelope v5.2.0
-Comment: https://mailvelope.com
 
 xsFNBGfLtI4BEAC5Q9YhwC3IN7/H+Ckro8is3YOy1p8obVKaP82fvnFk/+bv
 gDOFZJeQ8kTFUI43nqgKcCI1bl+fmOx5DlwiMaw7QLjSTpcmHQe7H17e6I+z

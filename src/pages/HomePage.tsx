@@ -27,7 +27,7 @@ export default function HomePage() {
         <div
           className="absolute top-0 left-0 w-full h-full z-10"
           style={{
-            backgroundImage: "url('/src/img/job297-ploy-07c-blue-01.jpg')",
+            backgroundImage: "url('/src/img/background.jpg')",
             backgroundSize: "cover",
             backgroundPosition: "center",
             opacity: 0.7, // Imposta l'opacità per rendere l'immagine leggermente trasparente
@@ -53,21 +53,15 @@ export default function HomePage() {
                   className="relative p-6 text-black"
 
               >
-                <h1 className="text-5xl font-bold leading-tight">
+                <h1 className="text-5xl font-bold leading-tight ">
                   Alessandro Pignati
                 </h1>
-                <p className="text-xl mt-4">
-                  Welcome to my personal website. I am a passionate researcher and professional
-                  dedicated to advancing knowledge in my field. With years of experience
-                  and numerous publications, I strive to make meaningful contributions
-                  to academic discourse and practical applications.
+                <p className="text-xl mt-4 text-justify">
+                  Welcome to my personal website! I am a Master's student in Computer Science and Engineering with a specialization in cybersecurity, passionate about research and dedicated to advancing knowledge in my field. With years of experience in cybersecurity, I am currently specializing in AI security.
                 </p>
-                <p className="mt-4">
-                  My research interests include AI Red Teaming, Adversarial Machine Learning, Federated Learning, and
-                  Security of AI Agents. Through my work,
-                  I aim to bridge the gap between theoretical frameworks and real-world
-                  applications, fostering innovation and progress in the field.
-                </p>
+                  <p className="mt-4 text-justify">
+                      My research interests include Adversarial Machine Learning, LLM security, Agentic AI security, and Federated Learning. I really like the AI security field and I continuously keep myself updated with the latest advancements in the field. Through my work, I aim to contribute meaningfully to AI security by researching novel attack techniques, developing robust defense mechanisms, and sharing my findings at conferences. I actively participate in the AI security community and enjoy collaborating with researchers and professionals to build a safer AI-driven future.
+                  </p>
               </div>
             </div>
           </div>

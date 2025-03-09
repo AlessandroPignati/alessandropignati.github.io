@@ -37,7 +37,7 @@ function App() {
   return (
     <div
       className="min-h-screen bg-cover bg-center"
-      style={{ backgroundImage: "url('/src/img/job297-ploy-07c-blue-01.jpg')" }}
+      style={{ backgroundImage: "url('/src/img/background.jpg')" }}
     >
       {/* Navbar */}
       <nav className={`fixed w-full top-0 z-50 bg-transparent transition-transform duration-300 ${
