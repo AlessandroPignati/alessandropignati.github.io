@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.nav-link {
+  position: relative;
+  display: inline-block;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -5px; /* distanza dalla scritta */
+  left: 50%;
+  width: 0;
+  height: 2px; /* altezza della sottolineatura */
+  background-color: black;
+  transition: width 0.3s ease, left 0.3s ease;
+  transform: translateX(0%); /* Centra la linea */
+}
+
+.group:hover .nav-link::after {
+  width: 100%; /* Estende la linea fino alla larghezza dell'elemento */
+  left: 0; /* Allinea la linea al bordo sinistro */
+}
