@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 export default function HomePage() {
   return (
@@ -69,11 +69,13 @@ export default function HomePage() {
       </div>
 
       {/* Footer (non trasparente) */}
-      <footer className="absolute bottom-4 w-full text-center text-sm text-black z-10">
+      <footer className="absolute bottom-4 w-full text-center text-sm text-black z-10 select-none">
         <p>&copy; {new Date().getFullYear()} All rights are reserved to Alessandro Pignati. <br />
           Opinions are my own, and do not necessarily reflect the views of my employer. <br />
           No permission is given to scrape this site and its content to train AI models.</p>
       </footer>
+
+
 
     </div>
   );

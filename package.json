@@ -1,6 +1,5 @@
 {
   "name": "vite-react-typescript-starter",
-  "homepage": "https://alessandropignati.github.io/",
   "private": true,
   "version": "0.0.0",
   "type": "module",

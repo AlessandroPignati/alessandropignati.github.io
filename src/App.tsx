@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import  { useState, useEffect } from 'react';
 import { Routes, Route, NavLink } from 'react-router-dom';
 
 import { House, User, Article, ChatTeardrop, PaperPlaneTilt } from "@phosphor-icons/react";

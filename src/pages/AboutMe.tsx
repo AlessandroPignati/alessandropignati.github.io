@@ -1,5 +1,4 @@
 import { User } from "@phosphor-icons/react";
-import React from "react";
 
 export default function AboutMe() {
   return (
@@ -84,12 +83,15 @@ export default function AboutMe() {
 
           Alessandro Pignati, MSc student with a passion for cybersecurity and experience in both academia and industry,
           currently working in AI security.
-          <p className="text-black text-lg font-medium" font-medium>Head shot</p>
+
+          <p className="text-black text-lg font-medium mb-4">Headshot</p>
+          <img src="/src/img/Headshot.jpg" alt="Alessandro Pignati" className="w-1/2 h-1/2"/>
         </div>
       </div>
 
       {/* Footer Section */}
-      <div className="text-center mt-auto text-black text-sm pb-4">
+      {/* Footer */}
+      <div className="text-center py-4 text-black text-sm select-none">
         <p>&copy; {new Date().getFullYear()} All rights are reserved to Alessandro Pignati.</p>
         <p>Opinions are my own, and do not necessarily reflect the views of my employer.</p>
         <p>No permission is given to scrape this site and its content to train AI models.</p>

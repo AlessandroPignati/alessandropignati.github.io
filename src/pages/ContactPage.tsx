@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+
 import { EnvelopeSimple, LinkedinLogo, XLogo } from "@phosphor-icons/react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBluesky } from '@fortawesome/free-brands-svg-icons';
@@ -83,8 +83,8 @@ export default function ContactPage() {
 
       </div>
 
-      {/* Footer Section */}
-      <div className="text-center mt-auto text-black text-sm pb-4">
+      {/* Footer */}
+      <div className="text-center py-4 text-black text-sm select-none">
         <p>&copy; {new Date().getFullYear()} All rights are reserved to Alessandro Pignati.</p>
         <p>Opinions are my own, and do not necessarily reflect the views of my employer.</p>
         <p>No permission is given to scrape this site and its content to train AI models.</p>
